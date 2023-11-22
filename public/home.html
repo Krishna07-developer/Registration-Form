@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body >
+    <div class="outerdiv">
+        
+        <h1 style="text-align: center;">Registration:</h1><hr/>
+        <form action="/register" method="POST">
+            <div class="innerDiv">
+                <label for="username">Username :</label>
+                <input type="text" name="username" id="username" placeholder="Enter username..">
+            </div>
+            <div class="innerDiv">
+                <label for="email">Email :</label>
+                <input type="email" name="email" id="email" placeholder="Email Address.." required>
+            </div>
+            <div class="innerDiv">
+                <label for="password">Password :</label>
+                <input type="password" name="password" id="password" placeholder="Enter password">
+            </div>
+            <input type="submit" value="Submit" id="submit">
+        </form>
+    </div>
+</body>
+</html>
